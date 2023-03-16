@@ -54,21 +54,21 @@ body {
 
 height : 1000px;
 
-background-image: url("../Images/sea2.jpg");
+background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../Images/sea2.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 image-rendering: auto;
-opacity: 0.5;
-box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+
+
 }
 
 .main-h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
   text-align: center;
-  color: #ddd;
+  color: rgb(255, 255, 255);
   
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
 
   margin-top: 0px;
   margin-right: 35% ;
@@ -82,9 +82,51 @@ text-align: center;
 padding: 10px;
 margin-left : 20px ;
 margin-right: 20px;
-background-color: rgba(0, 0, 0, 0.4);
+background-color: rgba(0, 0, 0, 0.3);
 color: rgb(255, 255, 255);
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.beaches-main {
+  height : 1000px;
+
+background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../Images/sea2.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+image-rendering: auto;
+opacity: 1;
+
+}
+.strandhill {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  text-align: center;
+  color: rgb(255, 255, 255, 1);
+  
+  background-color: rgba(0, 0, 0, 0.3);
+
+  margin-top: 0px;
+  margin-right: 35% ;
+  margin-left: 35%;
+  
+  padding-top: 10PX;
+  padding-bottom: 10px;
+}
+
+.strandhill-info {
+  text-align: center;
+padding: 10px;
+margin-left : 20px ;
+margin-right: 20px;
+background-color: rgba(0, 0, 0, 0.3);
+color: rgb(255, 255, 255);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.widget-strandhill {
+  padding-left: 200px;
+  padding-top: 30px;
+  opacity: 100% !important;
 
 }
 
@@ -95,7 +137,7 @@ height: 1000px;
 width : 30%;
 float : right;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-background-color: rgb(180, 180, 180);
+background-color: rgba(180, 180, 180, 0.432);
 }
 
 
