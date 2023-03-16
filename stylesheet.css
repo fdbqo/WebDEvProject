@@ -24,7 +24,7 @@ body {
     color: rgb(255, 255, 255);
     
     height: 10rem;
-    background-image: url("../Images/sea2.jpg");
+    background-image: url("Images/sea2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     image-rendering: auto;
