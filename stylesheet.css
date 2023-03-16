@@ -28,7 +28,7 @@ body {
   color: rgb(255, 255, 255);
   
   height: 10rem;
-  background-image: url("../Images/sea2.jpg");
+  background-image: url("./Images/sea2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   image-rendering: auto;
@@ -54,7 +54,7 @@ body {
 
 height : 1000px;
 
-background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../Images/sea2.jpg");
+background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./Images/sea2.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 image-rendering: auto;
@@ -91,7 +91,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .beaches-main {
   height : 1000px;
 
-background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../Images/sea2.jpg");
+background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./Images/sea2.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 image-rendering: auto;
