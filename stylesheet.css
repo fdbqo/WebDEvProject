@@ -6,9 +6,9 @@ body {
   background-color: rgb(255, 255, 255);
   margin: 0px;
 
-  
 
-  
+
+
 }
 
 .logo {
@@ -21,12 +21,12 @@ body {
 .header {
   font-size: 40px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.5), 0 0 42px #00d9ff94, 0 0 82px #00d9ff94,0 0 92px #00d9ff94;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.5), 0 0 42px #00d9ff94, 0 0 82px #00d9ff94, 0 0 92px #00d9ff94;
   padding-top: 50px;
   padding-bottom: 20px;
   padding-left: 20px;
   color: rgb(255, 255, 255);
-  
+
   height: 10rem;
   background-image: url("./Images/sea2.jpg");
   background-size: cover;
@@ -38,106 +38,144 @@ body {
 
 
 .p2div {
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   
-  color: rgb(130, 130, 130);
-  border-style: solid;
-  height: 1000px;
-  width : 70%;
-  float : left;
-  border-top: 0px;
-  border-left: 0px;
-  border-bottom: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  color: rgb(0, 0, 0, 0.8);
+
+  height: 100%;
+  width: 100%;
+  float: left;
+
 }
 
 .main-div {
 
-height : 1000px;
+  height: 1000px;
 
-background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./Images/sea2.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-image-rendering: auto;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./Images/sea2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-rendering: auto;
 
 
 }
 
 .main-h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+
   text-align: center;
   color: rgb(255, 255, 255);
-  
+
   background-color: rgba(0, 0, 0, 0.3);
 
   margin-top: 0px;
-  margin-right: 35% ;
+  margin-right: 35%;
   margin-left: 35%;
-  
+
   padding-top: 10PX;
   padding-bottom: 10px;
 }
+
 .txt-1 {
-text-align: center;
-padding: 10px;
-margin-left : 20px ;
-margin-right: 20px;
-background-color: rgba(0, 0, 0, 0.3);
-color: rgb(255, 255, 255);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
 .beaches-main {
-  height : 1000px;
+  height: 1500px;
 
-background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./Images/sea2.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-image-rendering: auto;
-opacity: 1;
+  background-image: linear-gradient(rgba(0, 217, 255, 0.58), rgba(98, 2, 253, 0.5));
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-rendering: auto;
+
+  opacity: 1;
 
 }
+
 .strandhill {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+
   text-align: center;
   color: rgb(255, 255, 255, 1);
-  
+
   background-color: rgba(0, 0, 0, 0.3);
 
   margin-top: 0px;
-  margin-right: 35% ;
+  margin-right: 35%;
   margin-left: 35%;
-  
+
   padding-top: 10PX;
   padding-bottom: 10px;
+
+
 }
 
 .strandhill-info {
   text-align: center;
-padding: 10px;
-margin-left : 20px ;
-margin-right: 20px;
-background-color: rgba(0, 0, 0, 0.3);
-color: rgb(255, 255, 255);
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
 }
+
+
+
 .widget-strandhill {
-  padding-left: 200px;
+
+  padding-left: 30%;
+  padding-right: 30%;
   padding-top: 30px;
+  padding-bottom: 50px;
   opacity: 100% !important;
+
+  align-self: center;
+
+
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+
+}
+
+.map-main {
+  text-align: center;
+  padding-top: 30px;
+  
+  opacity: 100% !important;
+
+  
 
 }
 
 .right {
 
-padding : 20px;
-height: 1000px;
-width : 30%;
-float : right;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-background-color: rgba(180, 180, 180, 0.432);
+  padding: 20px;
+  height: 1500px;
+  width: 30%;
+  float: right;
+  background-image: linear-gradient(rgba(0, 255, 255, 0.58), rgba(2, 253, 77, 0.5));
+}
+
+.loc {
+  text-align: center;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -147,7 +185,7 @@ background-color: rgba(180, 180, 180, 0.432);
   background-color: #333;
   overflow: hidden;
   margin: 0px;
-  
+
 }
 
 /* Style the links inside the navigation bar */
@@ -159,7 +197,7 @@ background-color: rgba(180, 180, 180, 0.432);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-   
+
 }
 
 /* Change the color of links on hover */
@@ -182,7 +220,10 @@ background-color: rgba(180, 180, 180, 0.432);
 
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
   .topnav a.icon {
     float: right;
     display: block;
@@ -190,12 +231,16 @@ background-color: rgba(180, 180, 180, 0.432);
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
+
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
