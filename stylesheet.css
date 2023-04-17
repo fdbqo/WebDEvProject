@@ -52,10 +52,14 @@ body {
 
   height: 1000px;
 
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./Images/sea2.jpg");
+  background-image: linear-gradient(rgba(0, 217, 255, 0.58), rgba(98, 2, 253, 0.5));
   background-size: cover;
   background-repeat: no-repeat;
-  image-rendering: auto;
+
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./Images/sea2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-rendering: auto; */
 
 
 }
@@ -79,8 +83,19 @@ body {
 .txt-1 {
   text-align: center;
   padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.form {
+  text-align: center;
+  padding: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
   background-color: rgba(0, 0, 0, 0.3);
   color: rgb(255, 255, 255);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -88,7 +103,7 @@ body {
 }
 
 .beaches-main {
-  height: 1500px;
+  height: 3000px;
 
   background-image: linear-gradient(rgba(0, 217, 255, 0.58), rgba(98, 2, 253, 0.5));
   background-size: cover;
@@ -117,11 +132,31 @@ body {
 
 }
 
+.strandhill-heading {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  text-align: center;
+  color: rgb(255, 255, 255, 1);
+
+  background-color: rgba(0, 0, 0, 0.3);
+
+  font-size: 20px;
+
+  margin-top: 20px;
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-bottom: 5px;
+
+  padding-top: 10PX;
+  padding-bottom: 10px;
+
+}
+
 .strandhill-info {
   text-align: center;
   padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
   background-color: rgba(0, 0, 0, 0.3);
   color: rgb(255, 255, 255);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -129,18 +164,15 @@ body {
 
 }
 
-
-
 .widget-strandhill {
 
   padding-left: 30%;
   padding-right: 30%;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 50px;
   opacity: 100% !important;
 
   align-self: center;
-
 
   border-style: solid;
   border-top: 0px;
@@ -151,21 +183,45 @@ body {
 
 .map-main {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   
   opacity: 100% !important;
 
-  
-
 }
+
+.form-div {
+  
+  height: 100vh;
+
+  background-image: linear-gradient(rgba(0, 217, 255, 0.58), rgba(98, 2, 253, 0.5));
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("./Images/sea2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-rendering: auto; */
+
+  width: 100%;
+}
+
+
+
 
 .right {
 
-  padding: 20px;
-  height: 1500px;
-  width: 30%;
+  padding: 10px;
+  height: 100VH;
+  width: 20%;
   float: right;
   background-image: linear-gradient(rgba(0, 255, 255, 0.58), rgba(2, 253, 77, 0.5));
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-left: 3px solid #333 ;
+
+  text-align: left;
+  color: rgb(100, 100, 100);
+  font-size: 20px;
+
 }
 
 .loc {
