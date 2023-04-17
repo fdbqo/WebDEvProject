@@ -17,11 +17,55 @@
     <title> Surf Sligo </title>
     <link rel="icon" href="Images/icons/flood-icon.png" type="image/x-icon">
 
+    <style>
+        label {
+            float: left;
+            width: 112px;
+            padding-right: 10px;
+            text-align: right;
+        }
+
+        input {
+            margin-left: 1em;
+            margin-bottom: .5em;
+            width: 220px;
+        }
+
+        #button,
+        #reset {
+            margin-top: .5em;
+            width: 8em;
+            background-color: rgb(0, 110, 255);
+            border: 2px solid black;
+            color: white;
+        }
+
+        input[type="checkbox"] {
+            width: 15px;
+        }
+
+        #button {
+            margin-left: 138px;
+        }
+
+        #reset {
+            margin-left: 82px;
+        }
+
+        input[type="radio"] {
+            width: 10px;
+        }
+    </style>
+
 </head>
 
 
 
 <body>
+
+
+
+
 
     <header class="header">
 
@@ -60,20 +104,22 @@
         </aside>
 
         <h1 class="main-h1"> Form </h1>
+
+
         <div class="form">
-            <form action="http:/example.com" method="get">
+            <form action="http://example.com" method="get">
                 <label for="first_name">First Name : <span class="required">*</span></label>
                 <input type="text" name="first_name" id="first_name" autofocus required><br><br>
                 <label for="second_name">2nd Name : <span class="required"> *</span></label>
-                <input type="text" name="second_name" id="second_name" autofocus required><br><br>
+                <input type="text" name="second_name" id="second_name"><br><br>
 
                 <label for="gender">Gender : </label>
                 <input type="radio" name="gender" id="gender" value="male"> Male
-                <input type="radio" name="gender" id="gender" value="female"> Female
-                <input type="radio" name="gender" id="gender" value="other"> Other<br><br>
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other<br><br>
 
                 <label for="email">Email : <span class="required"> *</span> </label>
-                <input type="text" name="email" id="email" autofocus required><br><br>
+                <input type="text" name="email" id="email"><br><br>
 
                 <label for="message">Message : <span class="required"> *</span> </label>
                 <textarea cols="40" rows="6" id="message" placeholder="Your message must be less than 200 characters"
@@ -81,45 +127,7 @@
                 <input type="submit" name="submit" id="button" value="Submit">
                 <input type="reset" name="reset" id="reset">
 
-                <style>
-                    label {
-                        float: left;
-                        width: 112px;
-                        padding-right: 10px;
-                        text-align: right;
-                    }
 
-                    input {
-                        margin-left: 1em;
-                        margin-bottom: .5em;
-                        width: 220px;
-                    }
-
-                    #button,
-                    #reset {
-                        margin-top: .5em;
-                        width: 8em;
-                        background-color: rgb(0, 110, 255);
-                        border: 2px solid black;
-                        color: white;
-                    }
-
-                    input[type="checkbox"] {
-                        width: 15px;
-                    }
-
-                    #button {
-                        margin-left: 138px;
-                    }
-
-                    #reset {
-                        margin-left: 82px;
-                    }
-
-                    input[type="radio"] {
-                        width: 10px;
-                    }
-                </style>
 
 
             </form>
