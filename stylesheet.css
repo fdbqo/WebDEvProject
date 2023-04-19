@@ -92,6 +92,14 @@ body {
 
 }
 
+.youtube-vid {
+  padding-top: 10px;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+
 .form {
   text-align: center;
   padding: 10px;
